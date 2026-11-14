@@ -51,3 +51,7 @@ path, a single file that is not ELF or is malformed or unreadable).
 - Tested on synthetic files only; not validated against binaries from every toolchain.
 
 MIT licensed.
+
+---
+
+**More tools by [TPOALOS](https://github.com/TPOALOS):** [iocgrep](https://github.com/TPOALOS/iocgrep) · [listenwatch](https://github.com/TPOALOS/listenwatch) · [sshcfg-audit](https://github.com/TPOALOS/sshcfg-audit) · [all 61 tools](https://tpoalos.github.io)

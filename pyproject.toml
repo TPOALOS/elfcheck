@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "elfcheck"
+version = "1.0.0"
+description = "checksec-style hardening checker for ELF binaries (PIE, NX, RELRO, canary, FORTIFY, RPATH, TEXTREL). Pure-Python parser, never executes anything. No dependencies."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "TPOALOS"}]
+keywords = ["elf", "checksec", "hardening", "security", "binary-analysis"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://github.com/TPOALOS/elfcheck"
+
+[project.scripts]
+elfcheck = "elfcheck:main"
+
+[tool.setuptools]
+py-modules = ["elfcheck"]
